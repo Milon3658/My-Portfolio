@@ -5,13 +5,18 @@ body{
 h1{
     font-size: 50px;
 }
+p{
+    text-align: justify;
+}
 .name-color{
     color: orange;
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
+    padding-right: 5%;
     padding-top: 10px;
+    margin-bottom: 100px;
 }
 section{
     display: flex;
@@ -29,4 +34,14 @@ section{
 #top-bannar{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+/* #dream-big{
+    background-image: url(images/dream-big.png);
+    background-repeat: no-repeat;
+
+} */
+#dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
